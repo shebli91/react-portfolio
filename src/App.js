@@ -3,6 +3,7 @@ import Header from "./Components/Header";
 import MainSection from "./Components/MainSection";
 import Software from "./Components/Software";
 import Projects from "./Components/Projects";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <MainSection />
       <Software />
       <Projects />
+      <Contact />
     </div>
   );
 }
