@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./Components/Header";
 import MainSection from "./Components/MainSection";
 import Software from "./Components/Software";
+import Projects from "./Components/Projects";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Header />
       <MainSection />
       <Software />
-      {/* Other components and content */}
+      <Projects />
     </div>
   );
 }
